@@ -2,7 +2,7 @@ from scipy.spatial import distance as dist
 from imutils import face_utils
 import numpy as np
 
-class FaceParser:
+class Parser:
     def __init__(self, shape):
         self.shape = shape
         self.shape_np = self.shape_to_np(self.shape)
